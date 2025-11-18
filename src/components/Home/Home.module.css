@@ -1,0 +1,118 @@
+.header {
+  width: 100%;
+  min-height: 800px;
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+
+.navbar {
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding:40px 160px ;
+}
+
+.left {
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.center {
+  display:flex;
+  gap:40px;
+  list-style:none;
+}
+
+.center a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.right {
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+.navbar span{
+  font-family: Poppins , sans-serif;
+}
+.signup {
+  background: #1572d3;
+  padding: 8px 18px;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.signin {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #1572D3;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 80px 160px;
+  gap: 40px;
+}
+
+.textmain {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.textmain span {
+  color: #1572D3;
+}
+
+.text {
+  font-size:18px;
+  font-family: "Poppins", sans-serif;
+  line-height:150%;
+  margin-top: 20px;
+}
+
+.car {
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  margin-right: -180px;
+}
+
+.car img {
+  max-width: 700px;
+  transform: translateX(120px);
+  animation: carComing .8s ease-out forwards;
+}
+
+@keyframes carComing {
+  0% {
+    transform: translateX(80px) translateY(60px) scale(0.7);
+    opacity: 0;
+    filter: blur(4px);
+  }
+  
+  100% {
+    transform: translateX(120px) translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.img2 {
+  position: absolute;
+  top:-33px;
+  left:800px;
+  width:803px;
+  pointer-events: none;
+}

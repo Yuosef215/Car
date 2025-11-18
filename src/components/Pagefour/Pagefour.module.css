@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    position: relative;
+    height: auto;
+}
+
+.car {
+    width: 813px;
+    margin-left: -200px;
+    margin-top: 92px;
+}
+
+.imgeback {
+    position: absolute;
+    left: -50px;
+    z-index: -1;
+    pointer-events: none;
+    margin-bottom: 250px;
+}
+
+.left {
+    position: relative;
+}
+
+.text {
+    width: 576px;
+}
+
+.text h1 {
+    font-size: 38px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+}
+
+.text p {
+    padding: 16px 23px;
+    background-color: #1572D31A;
+    border-radius: 8px;
+    width: 151px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    color: #1572D3;
+}
+
+.list1 {
+    display: flex;
+}
+
+.img4 {
+    width: 64px;
+    height: 64px;
+}
+
+.list img {
+    width: 64px;
+    height: 64px;
+}
+
+.col {
+    margin-left: 20px;
+    font-family: Poppins, sans-serif;
+}
+.list1 p {
+    color: #6D6D6D;
+}

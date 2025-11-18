@@ -1,0 +1,201 @@
+.header {
+    width: 100%;
+    min-height: 800px;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+}
+
+.sec {
+    display: flex;
+    justify-items: space-between;
+
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    box-shadow: 0px 6px 12px 0px #135EAC1F;
+    padding: 12px 12px 12px 32px;
+
+}
+
+.search input {
+    width: 867px;
+    height: 32px;
+    margin-left: 160px;
+    border: none;
+}
+
+.search a {
+    text-decoration: none;
+    background-color: #1572D3;
+    width: 100px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 8px;
+    color: white;
+}
+
+.Middlepage {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.Parents {
+    display: flex;
+    justify-content: center;
+}
+
+.parentp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 160px;
+}
+
+.prgh {
+    width: 226px;
+    height: 42px;
+    background-color: #1572D31A;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1572D3;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    border-radius: 8px;
+}
+
+.Middlepage h1 {
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    font-size: 38px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 256px;
+    height: auto;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 6px 12px 0px #135EAC1F;
+    transition: 0.3s ease;
+    font-family: Poppins, sans-serif;
+
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 20px 0px #135EAC3F;
+}
+
+.carImg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+}
+
+.title {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.rating {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.specs {
+    font-size: 14px;
+    color: #777;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    margin-bottom: 20px;
+}
+
+.priceBox {
+    display: flex;
+    gap: 6px;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.priceTitle {
+    color: #777;
+    font-size: 14px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.day {
+    color: #777;
+    font-size: 14px;
+}
+
+.rentBtn {
+    width: 100%;
+    padding: 12px;
+    background: #1572d3;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.rentBtn:hover {
+    background: #0f5aa7;
+}
+
+.bmw {
+    width: 208px;
+}
+
+.btn_morecars {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn_morecars a {
+    background-color: #E0E0E0;
+    width: 216px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 8px;
+    color: #4E4E4E;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn_morecars a:hover {
+    background-color: #0f5aa7;
+    color: #fff;
+    transition: .8s;
+}
