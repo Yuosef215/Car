@@ -8,25 +8,28 @@ import { GiThermometerCold } from "react-icons/gi";
 import { FaPerson } from "react-icons/fa6";
 import { IoLogoModelS } from "react-icons/io";
 
-
-
-
 export default function Middlepage() {
 
   const [carslist, setcarslist] = useState([]);
-
+  const [lodaing, setlodaing] = useState(true)
   
   useEffect(() => {
     
     let getcars =async () => {
-      let respons =await axios.get('https://myfakeapi.com/api/cars/');
+      try {
+        const respons =await axios.get('https://myfakeapi.com/api/cars/');
       setcarslist(respons.data.cars)
+      }
+      catch (error) {
+        console.log("Error fetching cars:", error)
+      }
+      finally { setlodaing(false); }
     }
     getcars();
-  
-  
   }, [])
-
+if (lodaing) {
+  return <div className={style.loader}>Loading...</div>
+}
   const firstFour = carslist.slice(0, 4);
 
   return (

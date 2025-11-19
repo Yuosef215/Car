@@ -31,8 +31,8 @@ return (
                 </div>
                 <div className={style.extra}>
                     <p><FaPerson size={30} /> 2 Passgener</p>
-                            <p><GiCarDoor size={30} /> 2 Doors</p>
-                        <p><GiThermometerCold size={30} /> Air Conditioning</p>
+                    <p><GiCarDoor size={30} /> 2 Doors</p>
+                    <p><GiThermometerCold size={30} /> Air Conditioning</p>
                 </div>
             </section>
         </div>
