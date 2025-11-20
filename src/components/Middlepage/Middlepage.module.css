@@ -74,6 +74,7 @@
     font-weight: 500;
     font-family: Poppins, sans-serif;
     border-radius: 8px;
+    margin-left: 50px;
 }
 
 .Middlepage h1 {
@@ -81,7 +82,7 @@
     font-family: Poppins, sans-serif;
     font-size: 38px;
     display: flex;
-    margin-left: 50px;
+    margin-left: 90px;
 }
 
 .middle {

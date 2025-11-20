@@ -74,6 +74,8 @@
 
 .textmain span {
   color: #1572D3;
+  border-bottom: 10px solid #1572d3;
+  
 }
 
 .text {
@@ -91,14 +93,14 @@
 }
 
 .car img {
-  max-width: 700px;
-  transform: translateX(120px);
+  max-width: 850px;
+  transform: translateX(90px);
   animation: carComing .8s ease-out forwards;
 }
 
 @keyframes carComing {
   0% {
-    transform: translateX(80px) translateY(60px) scale(0.7);
+    transform: translateX(100px) translateY(80px) scale(0.9);
     opacity: 0;
     filter: blur(4px);
   }

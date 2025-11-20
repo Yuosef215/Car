@@ -40,7 +40,6 @@ export default function Pagethree() {
     <img src={img5} />
     <img src={img6} />
     <img src={img7} />
-
     <img src={img4} />
     <img src={img5} />
     <img src={img6} />
