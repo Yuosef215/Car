@@ -74,7 +74,6 @@
 
 .textmain span {
   color: #1572D3;
-  border-bottom: 10px solid #1572d3;
   
 }
 
@@ -117,4 +116,7 @@
   left:800px;
   width:803px;
   pointer-events: none;
+}
+.link {
+  text-decoration: none;
 }
